@@ -1,0 +1,26 @@
+.log-form {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.button {
+  position: absolute;
+  top: 520px;
+  display: inline-block;
+  background: black;
+  border-radius: 10px;
+  padding: 0.5em 2em;
+  color: white;
+  margin-right: 0.5em;
+  box-shadow: inset 0px 1px 0px fadeout(blue, 80%);
+}
+
+.forgotUser {
+   position: absolute; 
+  top: 500px;
+  left: 775px;
+  display: inline-block;
+}
