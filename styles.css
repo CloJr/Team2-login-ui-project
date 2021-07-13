@@ -3,9 +3,24 @@
   min-height: 100vh;
   display: flex;
   align-items: center;
-  display: flex;
   justify-content: center;
+  
 }
+
+.input{
+  text-align: center;
+}
+
+
+.title{
+  display: flex;
+  position: relative;
+  top: 450px;
+  align-items: center;
+  justify-content: center;
+
+}
+
 .button {
   position: absolute;
   top: 520px;
@@ -18,9 +33,19 @@
   box-shadow: inset 0px 1px 0px fadeout(blue, 80%);
 }
 
-.forgotUser {
-   position: absolute; 
-  top: 500px;
+.forgot {
+  position: absolute; 
+  top: 570px;
   left: 775px;
-  display: inline-block;
+  display: flex;
+  
+}
+
+.space{
+  margin-left: 2.5em;
+}
+
+body{
+  background-image:url('image.jpg');
+  background-size: cover;
 }
